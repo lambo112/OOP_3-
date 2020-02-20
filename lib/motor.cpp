@@ -9,7 +9,7 @@ namespace Vehicles{
     }
 
     Motor::Motor(int capacity){
-        std::cout << "Constructing motooooooor of " << capacity << "cc" << std::endl;
+        std::cout << "Constructing motor of " << capacity << "cc" << std::endl;
         this->capacity = capacity;
     }
 };
